@@ -6,6 +6,7 @@ body {
     height: auto;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+    /* overflow-x: hidden; */
 }
 
 #nav-port {
@@ -30,18 +31,18 @@ body {
     top: 10px;
     left: 20px;
     position: fixed;
-    width:150px;
+    width: 150px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     color: #fff;
     border-radius: 20px;
-    background: rgb(237,237,237);
-    background: -moz-linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    background: linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ededed",endColorstr="#fcb045",GradientType=1);
+    background: rgb(237, 237, 237);
+    background: -moz-linear-gradient(90deg, rgba(237, 237, 237, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(237, 237, 237, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(90deg, rgba(237, 237, 237, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ededed", endColorstr="#fcb045", GradientType=1);
 }
 
 #navbarSupportedContent {}
@@ -68,6 +69,7 @@ a {
     cursor: pointer;
     background-color: rgba(226, 230, 227, 0.3);
 }
+
 li,
 ul {
     list-style: none;
@@ -179,15 +181,18 @@ ul {
     justify-content: center;
     flex-direction: column;
 }
-.about-us-index{
-    width:80%;
+
+.about-us-index {
+    width: 80%;
 }
-#index-experienceTitle{
+
+#index-experienceTitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 45px;
+    color: #fff;
     font-weight: 600;
     border-bottom: 2px solid #ff0100;
 }
@@ -209,7 +214,7 @@ ul {
     background-color: aquamarine;
 }
 
-.aboutustext{
+.aboutustext {
     width: 100%;
     height: auto;
     display: flex;
@@ -255,8 +260,8 @@ ul {
 }
 
 img {
-    column-gap: 20px;
-    margin-left: 15px;
+    /* column-gap: 20px; */
+    /* margin-left: 15px; */
 }
 
 img:hover {
@@ -291,9 +296,11 @@ img:hover {
         margin-top: -10px;
         background-color: rgba(11, 9, 9, 0.7);
     }
+
     .profile-text {
         width: 90%;
     }
+
     #index-experienceTitle {
         font-size: 24px;
         display: flex;
@@ -302,6 +309,7 @@ img:hover {
         justify-content: flex-start;
         padding-left: 28px;
     }
+
     .indexmaintext {
         width: 90%;
         color: white;
@@ -316,6 +324,7 @@ img:hover {
         width: 100%;
         margin: auto;
     }
+
     .aboutustext,
     p {
         width: 100%;
@@ -359,7 +368,7 @@ img:hover {
     background-image: url("../img/web-design.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin:0 0 40px 0;
+    margin: 0 0 40px 0;
     padding: 40px 0;
 }
 
@@ -466,43 +475,51 @@ img:hover {
     .fa-quote {
         display: none;
     }
+
     .company-exprience {
         width: 100%;
         padding: 20px 20px;
     }
+
     .company-exprience-title {
         font-size: 24px;
-        line-height:30px;
+        line-height: 30px;
     }
 }
 
-.technicalSkills{
+.technicalSkills {
     width: 100%;
     margin: 40px 0;
     display: flex;
     align-items: start;
     justify-content: center;
 }
-.technicalSkills-index{
+
+.technicalSkills-index {
     width: 80%;
     border: 1px solid #ccc;
-    padding:10px;
+    padding: 10px;
 }
-.technicalSkills-Title{
+
+.technicalSkills-Title {
     width: auto;
     font-size: 35px;
     font-weight: 600;
 }
-.technicalSkills-info{
+
+.technicalSkills-info {
     padding: 10px 15px;
 }
-.technicalSkills-info-title{
+
+.technicalSkills-info-title {
     font-size: 20px;
     font-weight: bold;
 }
-.technicalSkills-info-text{
+
+.technicalSkills-info-text {
     padding-left: 20px;
 }
+
 .technicalSkills-info:nth-child(odd):not(:first-child) {
     background-color: #f1f1f1;
 }
@@ -511,30 +528,16 @@ img:hover {
     .technicalSkills {
         margin: 20px 0;
     }
-.technicalSkills-index {
-    width: 95%;
+
+    .technicalSkills-index {
+        width: 95%;
+    }
+
+    .about-us-index {
+        width: 95%;
+    }
+
+    .aboutusTitle {
+        width: 95%;
+    }
 }
-.about-us-index {
-    width: 95%;
-}
-.aboutusTitle {
-    width: 95%;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
