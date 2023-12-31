@@ -15,6 +15,12 @@
     justify-content: center;
 }
 
+@media (max-width:701px) {
+    .common1 {
+        font-size: 24px;
+    }
+}
+
 .latest-compny-project-title {}
 
 
@@ -36,6 +42,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+    margin: 10px;
     /* background-color: #ccc; */
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -66,6 +73,27 @@ li {
 }
 
 .bi-chevron-double-right {
-    color: #000 !important;
+    color: #b42024 !important;
     font-size: 14px;
+}
+
+.latest-compny-project-demo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.latest-compny-project-demo-content {
+    width: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    text-align: start;
+    margin: 0 0 40px 0;
+    line-height: 30px;
 }
