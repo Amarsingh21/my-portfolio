@@ -59,7 +59,7 @@
 .latest-compny-project-previous-lists {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     flex-direction: row;
 }
